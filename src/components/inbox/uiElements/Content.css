@@ -1,0 +1,28 @@
+.content {
+    background-color: rgb(255, 255, 255);
+    padding: 30px 10px 10px 30px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.v-align-middle{
+    vertical-align: middle;
+}
+
+.list-item-status-icon{
+    border: 1px solid gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.ml10 {
+    margin-right: 10px;
+}

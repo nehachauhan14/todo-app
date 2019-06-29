@@ -1,0 +1,9 @@
+.container {
+    max-width: 950px;
+    margin: auto;
+    background: rgb(238, 234, 234);
+}
+
+.ml5 {
+    margin-left: 5px;
+}
