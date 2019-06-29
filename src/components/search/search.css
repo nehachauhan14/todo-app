@@ -1,0 +1,22 @@
+.search {
+    position: fixed;
+    top: 11px;
+    left: 300px;
+}
+
+.search > i {
+    position: absolute;
+    padding: 5px;
+}
+
+.search_input {
+    border: 1px solid #db4c3f;
+    border-radius: 20px;
+    padding: 5px 5px 5px 45px;
+    width: 200px;
+    transition: width .5s linear;
+}
+
+.search_input:hover {
+    width: 100%;
+}
