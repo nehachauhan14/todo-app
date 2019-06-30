@@ -10,7 +10,7 @@ class Content extends Component {
             return (
                 <div
                     key={idx}
-                    className="col-xs-12 clearfix list-item c-pointer">
+                    className="col-xs-12 list-item c-pointer">
                     <div
                         className="row">
                         <span
@@ -33,7 +33,6 @@ class Content extends Component {
                             </i>
                         </div>
                     </div>
-                    
                 </div>
             );
         })
@@ -42,16 +41,20 @@ class Content extends Component {
     }
   render() {
       return (
-      <div className="content">
+      <div className="clearfix content">
           <h4
             className="fs18 mb20">
             Inbox
           </h4>
-          <div>
+          <div 
+            className="clearfix">
               {this.renderList(this.props.list)}
-          </div>
-          <div>
-              <Create />
+            </div>
+          <div
+            className="clearfix">
+                <Create 
+                    handleAddHover={this.props.handleAddHover}
+                    AddIconHover={this.props.AddIconHover}/>
           </div>
 
       </div>

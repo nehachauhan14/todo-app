@@ -19,6 +19,10 @@
     padding: 5px;
 }
 
+.fs18 {
+    font-size: 18px
+}
+
 .list-item-status-icon{
     border: 1px solid gray;
     height: 15px;
@@ -59,3 +63,20 @@
 .mt2 {
     margin-top: 2px;
 }
+
+/* .add-icon {
+    background: aqua;
+    height: 20px;
+    position: relative;
+    width: 2px;
+}
+
+.add-icon:after {
+    content: "";
+    background: aqua;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: -2%;
+} */

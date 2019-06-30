@@ -34,9 +34,17 @@ class Inbox extends Component {
         description: 'Test 3 Task',
         priority: 3,
         createdAt: '1 Aug'
-      },]
+      }],
+      AddIconHover: false
     }
   }
+
+  handleAddHover = (e) => {
+    this.setState({
+      AddIconHover: !this.state.AddIconHover 
+    })
+  };
+
   render() {
       return (
         <div className="container inbox">
@@ -53,7 +61,9 @@ class Inbox extends Component {
               <div
                 className="col-xs-8 main-content">
                 <Content
-                  list={this.state.taskList} />
+                  list={this.state.taskList}
+                  handleAddHover={this.handleAddHover}
+                  AddIconHover={this.state.AddIconHover} />
               </div>
             </div>
         </div>
