@@ -10,15 +10,30 @@ class Content extends Component {
             return (
                 <div
                     key={idx}
-                    className="list-item">
+                    className="col-xs-12 clearfix list-item c-pointer">
                     <div
-                        className="list-item-status-icon d-inline-block v-align-middle">
-                    </div>
-                    <span
-                        className="inline-block ellipse v-align-middle">
+                        className="row">
+                        <span
+                            className="pull-left ml10 mt2 list-item-status-icon d-inline-block v-align-middle">
+                        </span>
+                        <div
+                            className="col-xs-8 ellipses v-align-middle"
+                            title={item.description}>
                             {item.description}
-                    </span>
-
+                        </div>
+                        <div
+                            className="col-xs-2 v-align-middle">
+                            {item.createdAt}
+                        </div>
+                        <div
+                            className="col-xs-1 v-align-middle">
+                            <i 
+                                className="material-icons">
+                                more_vert
+                            </i>
+                        </div>
+                    </div>
+                    
                 </div>
             );
         })
