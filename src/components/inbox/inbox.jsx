@@ -47,13 +47,9 @@ class Inbox extends Component {
 
   render() {
       return (
-        <div className="container inbox">
+        <div className="col-xs-offset-1 col-xs-10 container inbox">
             <div
-              className="row ml5 bold fs18">
-                <h4>Inbox</h4>
-            </div>
-            <div
-              className="row">
+              className="row wrapper">
               <div
                 className="col-xs-4 side-bar">
                 {/* <SideBar /> */}

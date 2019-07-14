@@ -5,7 +5,7 @@ class Navigation extends Component {
   render() {
       return (
       <div className="nav-bar">
-        <div className="nav-bar-inner">
+        <div className="col-xs-offset-1 col-xs-10 nav-bar-inner">
           <div id="logo">
             <a href="/">Todoist</a>
           </div>

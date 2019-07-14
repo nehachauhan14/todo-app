@@ -1,7 +1,10 @@
-.container {
-    max-width: 950px;
-    margin: auto;
+.container {    
+    padding-top: 45px;
     background: rgb(238, 234, 234);
+}
+
+.wrapper {
+    height: 92vh;
 }
 
 .ml5 {

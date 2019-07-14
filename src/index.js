@@ -13,16 +13,18 @@ import Search from './components/search/search';
 const routing = (
     <Router>
         <div>
-            <div className="App">
+            <div className="col-xs-12 App">
                 <Navigation />
                 <Search />
             </div>
-            <Switch>
-                <Route exact path='/' component={App} />
-                <Route path='/users' component={Users} />
-                <Route path='/inbox' component={Inbox} />
-                <Route component={NotFound} />
-            </Switch>
+            <div>
+                <Switch>
+                    <Route exact path='/' component={App} />
+                    <Route path='/users' component={Users} />
+                    <Route path='/inbox' component={Inbox} />
+                    <Route component={NotFound} />
+                </Switch>
+            </div>
         </div>
     </Router>
 );

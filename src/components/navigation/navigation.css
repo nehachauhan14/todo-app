@@ -1,19 +1,15 @@
 .nav-bar {
-    background-color: white;
+    background-color: #ff9000;
+    border-color: #e98300;
     overflow: hidden;
     height: 50px;
-    margin: 0 50px;
     font-size: 18px;
-    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
-
-.nav-bar-inner {
-    height: 100%;
-    max-width: 950px;
-    margin: auto;
-
-} 
-
 .nav-bar .nav-bar-inner > div.links {
     float: right;
 }
@@ -21,7 +17,7 @@
 .nav-bar .nav-bar-inner > div.links > a {
     text-decoration: none;
     font-size: 14px;
-    color: #7d8485;
+    color: white;
     display: inline-block;
     padding: 12px 16px;
     text-align: center;
@@ -38,10 +34,13 @@
 
 .nav-bar .nav-bar-inner #logo > a {
     text-decoration: none;
-    color: #db4c3f;
+    color: rgb(255, 255, 255);
     display: inline-block;
     float: left;
-    padding: 16px 18px;
+    padding: 12px 18px;
     font-weight: 700;
+}
 
+input:focus, textarea:focus, select:focus{
+    outline: none;
 }

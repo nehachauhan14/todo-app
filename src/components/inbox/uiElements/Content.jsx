@@ -10,7 +10,7 @@ class Content extends Component {
             return (
                 <div
                     key={idx}
-                    className="col-xs-12 list-item c-pointer">
+                    className="col-xs-12 list-item c-pointer mt5 mb5">
                     <div
                         className="row">
                         <span
