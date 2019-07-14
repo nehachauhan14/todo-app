@@ -1,10 +1,14 @@
 .container {    
     padding-top: 45px;
-    background: rgb(238, 234, 234);
+    background: rgb(250, 250, 250);;
 }
 
 .wrapper {
     height: 92vh;
+}
+
+.wrapper > div {
+    overflow-y: auto;
 }
 
 .ml5 {

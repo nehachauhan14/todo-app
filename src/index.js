@@ -12,7 +12,8 @@ import Search from './components/search/search';
 
 const routing = (
     <Router>
-        <div>
+        <div 
+            className="body-wrapper clearfix">
             <div className="col-xs-12 App">
                 <Navigation />
                 <Search />

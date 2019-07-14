@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './inbox.css';
 
 import Content from './uiElements/Content.jsx';
-
+import Sidebar from './uiElements/Sidebar.jsx';
 class Inbox extends Component {
   constructor() {
     super();
@@ -52,7 +52,7 @@ class Inbox extends Component {
               className="row wrapper">
               <div
                 className="col-xs-4 side-bar">
-                {/* <SideBar /> */}
+                <Sidebar/>
               </div>
               <div
                 className="col-xs-8 main-content">

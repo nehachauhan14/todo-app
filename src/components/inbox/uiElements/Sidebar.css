@@ -1,0 +1,34 @@
+.left-menu {
+    padding: 30px 10px 10px 30px;
+    min-height: calc(100vh - 50px);
+    overflow-y: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-filters li {
+    padding: 9px 16px 9px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    line-height: 1.25;
+    border-radius: 5px;
+}
+
+.top-filters li.current {
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.top-filters li .item-icon {
+    margin-right: 15px;
+}
+
+.top-filters li .item-count {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: normal;
+    font-size: 11px;
+}
